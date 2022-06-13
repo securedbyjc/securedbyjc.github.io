@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Jeffrey Collins</title>
+        <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    </head>
+
+    <!--Body-->
+    <body class="Background">
+        
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!--Breaks inserted to add space between navbar and the first heading-->
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="laptop_video">
+                <source src="./video/laptop.mp4" type="video/mp4">
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Jeffrey Collins's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
+                        <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
+                        <br>field of battle and to command such unswervingly dutiful actors or troops.
+                    </q>
+                    <br> -Joseph Weizenbaum
+                    <br>
+                    <br> My name is . Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>
+                    <br> Thank you for stopping by and enjoy! 
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="./img/photogrid.JPG" alt="Replace with your own image and description">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am a service connected disabled veteran of the U.S. Army, former executive protection consultant and now software developer who loves to code! As a father of 5 young adults, I enjoy time with my family and traveling. 
+                    <br>
+                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. 
+                    <br>
+                    
+                </p>
+            </div>
+        </div>
+        <a href="https://www.learncodinganywhere.com" target="_blank"></a>
+        <!--Con't About section-->
+        <div class="Row" id="Github">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1></h1>
+                <p>
+                    <br>As a full-stack developer, I  would love to work with you on your project. I am also highly motivated to gain experience on an enterprise - class DevOps, DevSecOps, or Cybersecurity team. My experience in the military and the private security sector has prepared me with an highly sought after set of skills of leadership, risk management and tactical strategy that I intend to leverage as a developer.
+                    <br>
+                    <br>I was recently accepted to attend <a href="https://www.eccu.edu/academics/bachelor-of-science-in-cyber-security/?utm_source=ECC&utm_medium=Home-BachelorDegree" target="_blank">EC-Council University</a>'s Cyber Security bachelor's degree progam and I will start in the fall semester of 2022.
+                    <br>
+                    
+                    
+                    <p class="center"><a href="https://github.com/securedbyjc" target="_blank"></a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+             
+                    <div class="table" >
+                        <table border="0" align="center">
+
+                            
+                                <h1 id="GitHub">My Socials</h1>
+                                
+                                <tr>
+                                   
+                                    <td><a href="https://github.com/securedbyjc" class="fa fa-github fa-lg" target="_blank"><br></a></td>
+                                    <br>
+
+                                    <td><a href="https://www.linkedin.com/in/jeffrey-collins-56530b237" class="fa fa-linkedin fa-lg" target="_blank"></a></td>
+                                    
+                                </tr>   
+                               
+                    </table>     
+                </div>
+            </div>
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="./img/dreamstime_s_3.jpg" alt="Contact_Image">
+                <p> I hope to hear from you soon!</p>
+            </div>
+                
+              
+        
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="https://formspree.io/f/xrgjdlnv" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center"> <a href="https://www.securedbyjc.com/" target="blank">  Securedbyjc.com 2022&nbsp; &nbsp;&copy; by HSS Technologies, Inc.</a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
